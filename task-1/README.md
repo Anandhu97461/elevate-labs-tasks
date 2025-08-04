@@ -17,4 +17,4 @@ This repo demonstrates automating the build and deployment of a Node.js app usin
    - Pushes image to DockerHub
 
 ## 🐳 Docker Image
-Image Name: `your-docker-username/nodejs-demo-app`
+Image Name: `anandhu97461/task-1`
