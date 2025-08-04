@@ -1,33 +1,20 @@
-# Elevate Labs Internship Tasks
+# 🚀 CI/CD Pipeline Demo with GitHub Actions & Docker
 
-This repository contains solutions to the internship tasks assigned by Elevate Labs.
+This repo demonstrates automating the build and deployment of a Node.js app using GitHub Actions and DockerHub.
 
-Each task is placed in its own folder (e.g., `task-1`, `task-2`, etc.) with its own README and code.
+## 🔧 Tech Stack
+- Node.js
+- Express
+- Docker
+- GitHub Actions
 
----
+## 🛠️ CI/CD Workflow
+1. Code pushed to main branch
+2. GitHub Actions runs:
+   - Installs dependencies
+   - Runs test (placeholder)
+   - Builds Docker image
+   - Pushes image to DockerHub
 
-## 📁 Tasks
-
-### 🔧 [Task 1 - Dockerize and Deploy](./task-1)
-
-- Dockerized a simple Node.js/React/Python (whatever your app is) app
-- Created a CI/CD pipeline with GitHub Actions
-- Automatically builds and pushes Docker images to Docker Hub
-- Uses `docker-compose` to simplify local development
-
-👉 [Read Task 1 Instructions & Setup](./task-1/README.md)
-
----
-
-## 📌 Notes
-
-- Each task folder is self-contained and has its own README, Dockerfiles, workflows, etc.
-- GitHub Actions are configured to trigger on push events and perform automated builds and deployments.
-- Docker Hub credentials are securely managed via GitHub repository secrets (`DOCKER_USERNAME`, `DOCKER_PASSWORD`).
-
----
-
-## 🔗 Developer
-
-- 👨‍💻 [Anandhu P A](https://www.linkedin.com/in/anandhu-p-a-307771369/)
-- 🌐 [GitHub Profile](https://github.com/Anandhu97461)
+## 🐳 Docker Image
+Image Name: `anandhu97461/task-1`
